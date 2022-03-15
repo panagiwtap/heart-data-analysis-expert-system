@@ -1,0 +1,17 @@
+1. όταν thal!=7 και vessels_flourosopy = 3 τοτε 2
+
+2. όταν thal!=7 και vessels_flourosopy !=3 !=0 kai sex=1  kai chest_pain !=4 τοτε 1
+
+3. όταν thal!=7 και vessels_flourosopy !=3 !=0 kai sex=1  kai chest_pain =4 τοτε 2
+
+4. όταν thal!=7 και vessels_flourosopy !=3 !=0 kai sex=0 τοτε 1
+
+5. όταν thal!=7 και vessels_flourosopy = 0 τοτε 1
+
+6. όταν thal=7 και vessels_flourosopy != 0 τοτε 2
+
+7. όταν thal=7 και vessels_flourosopy = 0 kai slope_ST > 1.0 kai exercise_angina !=0 τοτε 2
+
+8. όταν thal=7 και vessels_flourosopy = 0 kai slope_ST > 1.0 kai exercise_angina =0 τοτε 1
+
+9. όταν thal=7 και vessels_flourosopy = 0 kai slope_ST <= 1.0 τοτε 1
